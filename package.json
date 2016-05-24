@@ -1,0 +1,34 @@
+{
+  "name": "try-es-next",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-power-assert": "^1.0.0",
+    "babel-register": "^6.9.0",
+    "eslint": "^2.10.2",
+    "tap-mocha-reporter": "0.0.24"
+  },
+  "scripts": {
+    "test": "ava --tap | tap-mocha-reporter spec",
+    "clean-install": "rm -rf ./node_modules && npm cache clean && npm cache ls && rm -rf ~/.npm && npm install"
+  },
+  "author": "",
+  "private": true,
+  "license": "MIT",
+  "ava": {
+    "files": [
+      "src/**/*.test.js"
+    ],
+    "failFast": true,
+    "timeout": "4s",
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  }
+}
