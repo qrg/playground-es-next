@@ -1,7 +1,5 @@
 'use strict';
 
-require('babel-register');
-
 import test from 'ava';
 
 // http://www.2ality.com/2016/05/six-nifty-es6-tricks.html
