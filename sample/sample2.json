@@ -1,0 +1,30 @@
+{
+  "query": {
+    "allcategories": [{
+      "*": "23a:AVENTURINE raw pages"
+    }, {
+      "*": "23a:Adventurer mode"
+    }, {
+      "*": "23a:Agriculture"
+    }, {
+      "*": "23a:Ammo"
+    }, {
+      "*": "23a:Animals"
+    }, {
+      "*": "23a:Armor"
+    }, {
+      "*": "23a:Autumn crops"
+    }, {
+      "*": "23a:BASALT raw pages"
+    }, {
+      "*": "23a:BATMAN raw pages"
+    }, {
+      "*": "23a:BAT GIANT raw pages"
+    }]
+  },
+  "query-continue": {
+    "allcategories": {
+      "accontinue": "23a:BAT_raw_pages"
+    }
+  }
+}

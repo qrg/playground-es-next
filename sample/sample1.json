@@ -1,0 +1,30 @@
+{
+  "query": {
+    "allcategories": [{
+      "*": "0.27.169.33g"
+    }, {
+      "*": "2010:Animals"
+    }, {
+      "*": "23a"
+    }, {
+      "*": "23a:23a"
+    }, {
+      "*": "23a:ACACIA raw pages"
+    }, {
+      "*": "23a:ALLIGATOR raw pages"
+    }, {
+      "*": "23a:ANDESITE raw pages"
+    }, {
+      "*": "23a:ANTMAN raw pages"
+    }, {
+      "*": "23a:ANT raw pages"
+    }, {
+      "*": "23a:AQUAMARINE raw pages"
+    }]
+  },
+  "query-continue": {
+    "allcategories": {
+      "accontinue": "23a:AVENTURINE_raw_pages"
+    }
+  }
+}
