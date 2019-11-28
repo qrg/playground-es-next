@@ -5,13 +5,16 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.19.1",
-    "babel-cli": "^6.24.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.4.0",
-    "babel-preset-power-assert": "^1.0.0",
-    "babel-register": "^6.24.1",
-    "eslint": "^3.19.0"
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "ava": "^2.4.0",
+    "babel-preset-power-assert": "^3.0.0",
+    "eslint": "^6.7.1",
+    "power-assert": "^1.6.1"
   },
   "scripts": {
     "test": "ava --verbose",
@@ -24,7 +27,7 @@
   "babel": {
     "presets": [
       [
-        "env",
+        "@babel/preset-env",
         {
           "targets": {
             "browsers": [
@@ -37,7 +40,7 @@
       "babel-preset-power-assert"
     ],
     "plugins": [
-      "transform-runtime"
+      "@babel/transform-runtime"
     ],
     "sourceMaps": "inline"
   },
@@ -48,7 +51,7 @@
     "failFast": true,
     "timeout": "4s",
     "require": [
-      "babel-register"
+      "@babel/register"
     ]
   }
 }
